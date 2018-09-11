@@ -15,14 +15,14 @@ Hayato Nakamura and Christina
 
 **Sprint 2:** (9/16 ~ 9/18)
 
-*Completion of database integration
-*Automatic Updates on the cloud
-*Log-in/off integration along with User Manual page
+* Completion of database integration
+* Automatic Updates on the cloud
+* Log-in/off integration along with User Manual page
 
 **Sprint 3:** (9/19 ~ 9/20)
 
-*Finalize front end design
-*Complete agile test
-*Polish up table and database design
-*Conduct final simulations
+* Finalize front end design
+* Complete agile test
+* Polish up table and database design
+* Conduct final simulations
 
