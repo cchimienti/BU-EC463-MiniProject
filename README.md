@@ -9,9 +9,9 @@ Hayato Nakamura and Christina
 
 **Sprint 1:** (9/9 ~ 9/15)
 
-*Completion of front end planning
-*IOS Authentication via Google API
-*Finalize database/cloud service provider
+* Completion of front end planning
+* IOS Authentication via Google API
+* Finalize database/cloud service provider
 
 **Sprint 2:** (9/16 ~ 9/18)
 
