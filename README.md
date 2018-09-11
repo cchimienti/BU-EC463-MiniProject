@@ -7,7 +7,7 @@ Hayato Nakamura and Christina
 
 ## Project Overview
 
-**Sprint 1: **
+**Sprint 1 **
 
 **Sprint 2: **
 
