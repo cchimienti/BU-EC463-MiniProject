@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>876829358457-nfmbulf3t57c7gs0pr3nlfge5anjqqnj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.876829358457-nfmbulf3t57c7gs0pr3nlfge5anjqqnj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsvJBOCs-38230cUDTIAcw6S2lV4vJgGM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>876829358457</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hayatopia.SW-Mini-Project-v1</string>
+	<key>PROJECT_ID</key>
+	<string>swminiproject-45dd9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>swminiproject-45dd9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:876829358457:ios:89739d745c1f237c</string>
+	<key>DATABASE_URL</key>
+	<string>https://swminiproject-45dd9.firebaseio.com</string>
+</dict>
+</plist>
