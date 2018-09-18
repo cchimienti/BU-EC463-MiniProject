@@ -7,18 +7,48 @@
 //
 
 import UIKit
+import FirebaseDatabase
+
+var ref: DatabaseReference?
+var dataHandle:DatabaseReference?
+var changedData = [String]()
 
 class secondViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+	ref = Database.database().reference()
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
+
+	//to add new user to database
+  	ref?.child("Users").child("gmail").child(Room1).setValue(["temp": 75])
+	ref?.child("Users").child("gmail").child(Room1).setValue(["humidity": 67])
+
+  	//to update
+	updated_temp = ["Users/\$gmail/Room1\temp/": new_temperature]
+	updated_humidity = ["Users/\$gmail/Room1\humidity/": new_humidity]
+	ref.updateChildValues(updated_temp)
+	ref.updateChildValues(updated_humidity)
+
+	//to retrieve
+	dataHandle = ref?.child("Users").child("gmail").child("Room1").observe(.childChanged, with: { (snapshot) in
+  		let current_data = snapshot.value as? String
+  
+  		if let Correct_data = current_data {
+  
+  		self.changedData.append(snapshot)
+  
+  		//reload the table
+  		self.tableView.reloadData()
+  	}	
+  
+  }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
