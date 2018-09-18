@@ -7,5 +7,7 @@ target 'SW_Mini_Project_v1' do
 
   # Pods for SW_Mini_Project_v1
 pod 'GoogleSignIn'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
 
 end
