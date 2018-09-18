@@ -26,3 +26,9 @@ Hayato Nakamura and Christina Chimienti
 * Polish up table and database design
 * Conduct final simulations
 
+## Project Details
+
+Application: iOS app
+Authentication: Google Sign-In API
+Database: Firebase for iOS, Google's mobile platform 
+
