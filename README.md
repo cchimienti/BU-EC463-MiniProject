@@ -28,7 +28,7 @@ Hayato Nakamura and Christina Chimienti
 
 ## Project Details
 
-Application: iOS app
-Authentication: Google Sign-In API
-Database: Firebase for iOS, Google's mobile platform 
+Application: iOS app  
+Authentication: Google Sign-In API  
+Database: Firebase for iOS, Google's mobile platform   
 
