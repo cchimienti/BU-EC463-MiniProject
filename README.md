@@ -38,4 +38,4 @@ Database: Firebase for iOS, Google's mobile platform
 
 ## Installation Instructions
 1. Download xcode.
-2. Clone this repository like such: git clone <your-repo-address-here>
+2. Clone this repository like such: 'git clone https://github.com/cchimienti/BU-EC463-MiniProject'
