@@ -58,4 +58,8 @@ To run this on your actual iPhone:
  - Checks whether the user is correctly signed in or not. When an unsigned or unauthorized user attempts to view data, it will return an error label and will force the user to sign in.
 
 ## Database Design
+The database is structured in the following way. First, the parent node is always the username of the gmail user. If for some reason there is a user without a username, it will make a parent node called 'User'. After the user parent, its children are gmail --> RoomX --> TemperatureX OR HumidityX. The reason why there is a branch for 'gmail' is for future installations where other authentication processes may be available such as Facebook, or Twitter. 
 ![image](https://user-images.githubusercontent.com/33381712/45839492-82546580-bce2-11e8-8755-6a8bcc877df8.png)
+
+When Room1 is expanded, the following children appear: (Notice how it does not matter whether or not TemperatureX and HumidityX is in order because when retrieving the data if will simply search for the specific node.)
+![image](https://user-images.githubusercontent.com/33381712/45839715-1f170300-bce3-11e8-9139-10e4ee20d4a0.png)
