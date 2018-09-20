@@ -32,11 +32,17 @@ This IOS application demonstrates storing temperature and humidity values from d
 
 ## Project Details
 
-Application: iOS app  
-Authentication: Google Sign-In API  
-Database: Firebase for iOS, Google's mobile platform
+Application: iOS (Swift 4)  
+Authentication: Google Sign-In | Firebase SDK
+Database: Firebase for iOS, Google's mobile platform (IOS Default Storage)
+Pods: Google-SignIn | Firebase/Core | Firebase/Database
 
 ## Installation Instructions
 1. Download xcode.
 2. Clone this repository like such: `git clone < this repo address > `
 3. Open the `SW_Mini_Project_v3.xcworkspace` file and enter command + R
+
+To run this on your actual iPhone:
+1. Connect your apple device to your computer and select the pull down menu next to the stop button on the top left
+2. Select your apple device as your run option
+3. Unlock your phone
