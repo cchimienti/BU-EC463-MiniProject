@@ -19,7 +19,7 @@ Pods: Google-SignIn | Firebase/Core | Firebase/Database | SwiftCharts
 ## Installation Instructions
 1. Download xcode.
 2. Clone this repository like such: `git clone < this repo address > `
-3. Open the `SW_Mini_Project_v3.xcworkspace` file and enter command + R
+3. Go in the `Sprint 4` folder and open the `SW_Mini_Project_v3.xcworkspace` file and enter command + R
 
 To run this on your actual iPhone:
 1. Connect your apple device to your computer and select the pull down menu next to the stop button on the top left
