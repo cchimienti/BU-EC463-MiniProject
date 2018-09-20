@@ -35,7 +35,8 @@ This IOS application demonstrates storing temperature and humidity values from d
 Application: iOS (Swift 4)  
 Authentication: Google Sign-In | Firebase SDK
 Database: Firebase for iOS, Google's mobile platform (IOS Default Storage)
-Pods: Google-SignIn | Firebase/Core | Firebase/Database
+Data Presentation: SwiftCharts SDK
+Pods: Google-SignIn | Firebase/Core | Firebase/Database | SwiftCharts
 
 ## Installation Instructions
 1. Download xcode.
