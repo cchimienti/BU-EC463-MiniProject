@@ -58,4 +58,4 @@ To run this on your actual iPhone:
  - Checks whether the user is correctly signed in or not. When an unsigned or unauthorized user attempts to view data, it will return an error label and will force the user to sign in.
 
 ## Database Design
-*Insert Picture Here*
+![image](https://user-images.githubusercontent.com/33381712/45839492-82546580-bce2-11e8-8755-6a8bcc877df8.png)
