@@ -47,3 +47,14 @@ To run this on your actual iPhone:
 1. Connect your apple device to your computer and select the pull down menu next to the stop button on the top left
 2. Select your apple device as your run option
 3. Unlock your phone
+
+
+## Testing
+1. Instant generation of temperature/humidity values
+ - Done in the SecondViewController.swift, which includes a `Simulate New Data` button which first checks if there is a secure connection between the database and the IOS app. Then it continues to upload randomly generated data into the database.
+ 
+2. Timed connectivity checks
+- Every 20 minutes (assuming the app is not quit by the user) the IOS app checks the connectivity with the database. If connection is lost and is unable to be reconnected, returns an error label.
+
+3. Unauthorized SignIn and Access to Room Data
+ - Checks whether the user is correctly signed in or not. When an unsigned or unauthorized user attempts to view data, it will return an error label and will force the user to sign in.
