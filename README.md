@@ -38,4 +38,5 @@ Database: Firebase for iOS, Google's mobile platform
 
 ## Installation Instructions
 1. Download xcode.
-2. Clone this repository like such: ` git clone < this repo address> `
+2. Clone this repository like such: `git clone < this repo address > `
+3. Open the `SW_Mini_Project_v3.xcworkspace` file and enter command + R
