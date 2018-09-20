@@ -5,6 +5,9 @@
 SW MiniProject for EC463 Fall 2018
 Hayato Nakamura and Christina Chimienti
 
+## Project Description
+This IOS application demonstrates storing temperature and humidity values from different rooms and storing them into a database. It requires Google Authentication, and each user will have a unique room and database. This project demonstrates the ability to use the Google Signin SDK, Firebase for the database, and accurate simulations of the testing environment unique to the user.
+
 ## Project Overview
 
 **Sprint 1:** (9/9 ~ 9/15)
@@ -26,9 +29,13 @@ Hayato Nakamura and Christina Chimienti
 * Polish up table and database design
 * Conduct final simulations
 
+
 ## Project Details
 
 Application: iOS app  
 Authentication: Google Sign-In API  
-Database: Firebase for iOS, Google's mobile platform   
+Database: Firebase for iOS, Google's mobile platform
 
+## Installation Instructions
+1. Download xcode.
+2. Clone this repository like such: git clone <your-repo-address-here>
